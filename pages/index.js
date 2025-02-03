@@ -52,27 +52,19 @@ export default function Home() {
             </h2>
 
             <div className="flex flex-col md:flex-row items-center md:items-start mb-12">
-              <div className="w-full md:w-1/2 text-center">
-                <h4 className="block sm:hidden text-lg font-semibold mb-4">
-                  UX Design
-                </h4>
+              {/* Image */}
+              <div className="w-full md:w-1/2 text-center md:-ml-[1.5em]">
                 <img
                   src="http://www.alfredorafael.com/wp-content/uploads/2024/02/UX_Diagram.png"
                   alt="UX design example"
                   className="mx-auto w-[55%]"
                 />
               </div>
-              <div className="w-full md:w-1/2 md:pl-8">
-                <h4
-                  className="hidden sm:block text-lg font-semibold mb-4"
-                  style={{ fontSize: "150%" }}
-                >
-                  UX/UI Design
-                </h4>
-                <p
-                  className="text-lg leading-relaxed"
-                  style={{ fontSize: "120%" }}
-                >
+
+              {/* Text */}
+              <div className="w-full md:w-1/2 md:pl-8 text-center md:text-left">
+                <h4 className="text-lg font-semibold mb-4">UX Design</h4>
+                <p className="text-lg leading-relaxed">
                   Need to translate your idea into a fully functional web
                   application? From logo design and color palette to wireframe,
                   we'll develop a template that mirrors your application's look
